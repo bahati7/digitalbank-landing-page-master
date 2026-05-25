@@ -3,5 +3,12 @@
 
 :root {
     font-family: "Poppins", sans-serif;
-    color-scheme: dark;
+    color-scheme: light dark;
+    
 }
+@theme {
+  --color-brand-green: hsl(136, 64%, 51%);
+  --color-brand-cyan: hsl(192, 69%, 51%);
+}
+
+
