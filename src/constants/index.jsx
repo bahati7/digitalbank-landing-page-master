@@ -74,3 +74,16 @@ export const articles = [
   },
  
 ];
+
+export const aboutLinks = [
+  { href: "#", text: "About Us" },
+  { href: "#", text: "Contact" },
+  { href: "#", text: "Blog" },
+  
+];
+
+export const careerLinks = [
+  { href: "#", text: "Careers" },
+  { href: "#", text: "Support" },
+  { href: "#", text: "Privacy Policy" },
+];

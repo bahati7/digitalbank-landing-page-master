@@ -7,7 +7,7 @@ const Blog = () => {
            
    
    
-           <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-12'>
+           <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-12 pb-24'>
                {articles.map((article,index)=>(
                    <div key={index} className='flex flex-col items-start gap-6 bg-white dark:bg-gray-800 rounded-lg p-4'>
                        <img src={article.image} alt="icon" />

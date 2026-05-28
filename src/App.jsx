@@ -2,6 +2,7 @@ import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Blog from "./components/Blog";
+import Footer from "./components/Footer";
 
 
 
@@ -18,6 +19,10 @@ const App = () => {
       </div>
       <div className="max-w-7xl mx-auto pt-20 px-6 bg-brand-gray50 dark:bg-gray-900">
           <Blog/>
+         
+      </div>
+       <div className="max-w-7xl mx-auto pt-20 px-3 bg-brand-blue">
+          <Footer/>
          
       </div>
       
