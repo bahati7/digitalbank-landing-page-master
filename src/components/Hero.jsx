@@ -7,9 +7,9 @@ const Hero = () => {
   <div className="mx-auto w-screen max-w-7xl flex flex-col-reverse md:grid md:grid-cols-2 md:items-center md:gap-4 px-4 py-2 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
 
     {/* TEXT */}
-    <div className="max-w-prose text-left">
+    <div className="max-w-prose text-left py-4">
 
-      <h1 className="text-1xl  text-gray-900 sm:text-5xl dark:text-white">
+      <h1 className="text-5xl  text-gray-900 sm:text-1xl dark:text-white">
         Next generation digital banking
       </h1>
 

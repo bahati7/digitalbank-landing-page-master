@@ -7,7 +7,8 @@ import instagram from '../assets/icon-instagram.svg';
 
 const Footer = () => {
   return (
-    <footer className=" border-t py-10 border-neutral-700">
+    <>
+        <footer className=" border-t py-10 border-neutral-700">
         <div className=" grid grid-cols-1 lg:grid-cols-4 gap-2">
             <div className="flex flex-col items-center md:items-start gap-2">
                 <img className='h-10 w-32' src={logo} alt="logo" />
@@ -46,7 +47,12 @@ const Footer = () => {
             </div>
 
         </div>
+       
    </footer>
+   <p className="text-white">Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/bahati7" target="_blank">Bahati P.</a>.</p>
+    </>
+    
   )
 }
 
