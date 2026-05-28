@@ -44,7 +44,7 @@ const Navbar = () => {
             {mobileDropdown && (
                 <div className='fixed right-0 z-20   w-full  p-12 flex flex-col
                  justify-center items-center lg:hidden text-center'>
-                    <div className='bg-neutral-200 p-12 w-full rounded-md'>
+                    <div className='bg-white p-12 w-full rounded-md'>
                     <ul>
                         {navItems.map((item,index)=>(
                             <li key={index} className='py-4'>

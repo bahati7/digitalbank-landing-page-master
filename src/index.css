@@ -9,6 +9,14 @@
 @theme {
   --color-brand-green: hsl(136, 64%, 51%);
   --color-brand-cyan: hsl(192, 69%, 51%);
+  --color-brand-grey600: hsl(233, 8%, 62%);
+  --color-brand-gray100: hsl(220, 16%, 96%);
+  --color-brand-gray50: hsl(0, 0%, 98%);
+  --color-brand-white: hsl(0, 100%, 100%);
 }
+/* *{
+  box-sizing: border-box;
+  overflow-x: hidden;
+} */
 
 
