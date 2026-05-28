@@ -48,7 +48,7 @@ const Navbar = () => {
                     <ul className='text-black'>
                         {navItems.map((item,index)=>(
                             <li key={index} className='py-4'>
-                                <a href="item.ref">{item.label}</a>
+                                <a href={item.ref}>{item.label}</a>
                             </li>
 
                         )
